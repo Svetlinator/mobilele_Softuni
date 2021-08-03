@@ -1,4 +1,4 @@
-package softuni.exersice1.mobilele.entities;
+package softuni.exersice1.mobilele.model.entities;
 
 import softuni.exersice1.mobilele.enums.UserRoleEnum;
 

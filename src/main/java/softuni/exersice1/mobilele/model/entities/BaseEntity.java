@@ -1,4 +1,4 @@
-package softuni.exersice1.mobilele.entities;
+package softuni.exersice1.mobilele.model.entities;
 
 import javax.persistence.*;
 import java.time.Instant;

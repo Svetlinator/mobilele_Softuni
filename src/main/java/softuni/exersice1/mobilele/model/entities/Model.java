@@ -1,10 +1,12 @@
-package softuni.exersice1.mobilele.entities;
+package softuni.exersice1.mobilele.model.entities;
 
 import softuni.exersice1.mobilele.enums.CategoryEnum;
 
 import javax.persistence.*;
 
 @Entity
+@Table(name ="models" )
+
 public class Model extends BaseEntity{
 @Column(nullable = false,unique = true)
     private  String name;

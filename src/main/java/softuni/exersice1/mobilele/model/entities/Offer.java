@@ -1,15 +1,13 @@
-package softuni.exersice1.mobilele.entities;
+package softuni.exersice1.mobilele.model.entities;
 
-import com.sun.xml.bind.v2.TODO;
 import softuni.exersice1.mobilele.enums.EngineEnum;
 import softuni.exersice1.mobilele.enums.transmissionEnum;
 
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.math.BigDecimal;
 @Entity
+@Table(name ="offers" )
+
 public class Offer extends BaseEntity{
 
     private String description;
